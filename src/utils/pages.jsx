@@ -1,3 +1,7 @@
+import IjBatafsil from "../Components/ijara-uy-batafsil/batafsil"
+import IjaraUy from "../Components/Ijara-uy/ijara-uy"
+import IshTopish from "../Components/ish-topish/ishtopish"
+
 const Pages = [
     {
         id: 1,
@@ -15,13 +19,13 @@ const Pages = [
         ru: 'Arenda doma',
         eng: 'Ijara home',
         path: '/ijara-uylar',
-        element: <h1>Ijara uylar</h1>
+        element: <IjaraUy/>
     },
     {
         id: 3,
         name: 'Ish topish',
         path: '/ish-topish',
-        element: <h1>Ish topish</h1>
+        element: <IshTopish/>,
     },
     {
         id: 4,
@@ -45,7 +49,7 @@ const Pages = [
         id: 7,
         name: 'Biz haqimizda',
         path: '/biz-haqimizda',
-        element: <h1>Biz haqimizda</h1>
+        element: <IjBatafsil/>
     },
 ]
 
