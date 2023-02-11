@@ -8,7 +8,7 @@ const IjBatafsil = () => {
         <IjBatafsilSt>
 
             {
-                UyTopish.map((v) => v.id == selectdUy && (
+                UyTopish.map((v) => v.id === selectdUy && (
                     <BatafsilSt>
                         <div>
                             {v.malumot}

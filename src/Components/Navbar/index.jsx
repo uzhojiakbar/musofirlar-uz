@@ -6,7 +6,7 @@ import { Link, Logo, NavContainer, Options, Tohome } from './style'
 const Navbar = () => {
     const [open, setOpen] = useState(false)
     const [selectedLang, setSelectedLang] = useState(Langs[0])
-    const [langs, setLangs] = useState(Langs)
+    const [langs] = useState(Langs)
     const onSelect = v => {
         setSelectedLang(v)
         setOpen(!open)
