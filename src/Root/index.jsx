@@ -8,7 +8,7 @@ const Root = () => {
     <div className='main-con'>
       <Navbar />
       <Routes>
-        <Route path={'/'} element={<Navigate to={'/bosh-sahifa'}/>} />
+        <Route path={'/'} element={<Navigate to={'/bosh-sahifa'} />} />
         {
           Pages.map((v) => {
             return <Route path={v.path} element={v.element} />

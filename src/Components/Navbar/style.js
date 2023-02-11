@@ -8,6 +8,12 @@ const NavContainer = styled.div`
     width: 100%;
     height: 50px;
     margin: 0 auto;
+    background-color: white;
+    z-index: 999;
+    box-shadow:
+        0 0 10px white,
+        0 0 40px white,
+        0 0 50px white;
 `
 
 const Tohome = styled.div`
@@ -20,7 +26,6 @@ const Tohome = styled.div`
 `
 
 const Logo = styled(Musofir)`
-    
     width: 100%;
     height:100%;
     cursor: pointer;
