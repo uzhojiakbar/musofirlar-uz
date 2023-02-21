@@ -14,7 +14,6 @@ import FoodService from '../../Assets/logo/food-service.svg'
 import Flag from '../../Assets/imgs/elchixona-banner/flag.svg'
 import Ijara from '../../Assets/imgs/header/ijara.png'
 import Taxi from '../../Assets/imgs/taxi-banner/back.svg'
-import UZ from '../../Assets/imgs/taxi-banner/uz.png'
 // BANNERS
 import Banner1 from '../../Assets/imgs/ish-topish-banner/banner-1.svg'
 import oshxonaBanner1 from '../../Assets/imgs/oshxona-banner/banner1.svg'

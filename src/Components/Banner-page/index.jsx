@@ -95,7 +95,7 @@ const BannerPage = ({ title = {}, type = {}, data = [], extra = [] }) => {
         :
         null}
       {
-        type?.type == 'image-corusel' ? <ImageCorusel>
+        type?.type === 'image-corusel' ? <ImageCorusel>
           {
             extra.map((v) => <MasjidImg src={v.img} key={v.id}>
 
