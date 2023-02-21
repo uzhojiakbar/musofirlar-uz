@@ -11,7 +11,7 @@ const Root = () => {
         <Route path={'/'} element={<Navigate to={'/bosh-sahifa'} />} />
         {
           Pages.map((v) => {
-            return <Route path={v.path} element={v.element} />
+            return <Route key={v.id} path={v.path} element={v.element} />
           })
         }
       </Routes>

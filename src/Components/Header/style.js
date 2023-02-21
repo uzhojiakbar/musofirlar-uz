@@ -3,7 +3,6 @@ import headerImg from '../../Assets/imgs/header.png'
 import { ReactComponent as Bottom } from '../../Assets/imgs/icons/bottom.svg'
 
 const Container = styled.div`
-    margin: 0 auto;
     background-size: cover;
     background-repeat: no-repeat;
     height: 750px;

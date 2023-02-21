@@ -1,0 +1,21 @@
+- title - object  
+        {title:'any',
+        info:'information',
+        navigate:'navigate addres'}
+- type -  object 
+            {{
+                type: 'banner' || 'image-corusel' || 'corusel', 
+                view: 'row-reverse' || 'column-reverse' || 'column' || 'row' ,
+                background: Ijara
+            }}
+- Data - Array 
+        [
+            {
+                id: 1,
+                icon: iucon,
+                title: optionTitle,
+                info: OptionInfo,
+                img: img
+            },
+        ]
+- Extra - Object {EXTRA INFORMATION}

@@ -14,6 +14,7 @@ const NavContainer = styled.div`
         0 0 10px white,
         0 0 40px white,
         0 0 50px white;
+    padding: 0 10px;
 `
 
 const Tohome = styled.div`
